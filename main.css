@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+}
+
+.header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 782px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.section {
+    margin-top: 150px;
+}
+
+.card {
+    width: 100%;
+    max-width: 800px;
+}
+
+.card-title2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    width: 100%;
+    max-width: 645px;
+    text-align: center;
+}
+.navbar {
+    background-color: white!important;
+    border-bottom: 1px solid black;
+}
+.nav-link {
+
+    font-weight: 700!important;
+}
+
+.btn {
+
+    height: 40px;
+    
+}
+
+
+
+
+
+
+@media (max-width:991px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        color: white;
+    }
+    .nav-link {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:768px) {
+   .card-title2 {
+    font-size: 55px;
+   }
+ 
+}
+
+
+@media(max-width:496px) {
+    .havola>a {
+    font-size: 25px!important;
+    }
+ 
+}
+
+@media(max-width:437px) {
+    .havola>a {
+    font-size: 18px!important;
+    }
+ 
+}
+
+@media(max-width:355px) {
+    .havola>a {
+    font-size: 15px!important;
+    }
+ 
+}
+
+@media (max-width:400px) {
+    .card-title2 {
+        font-size: 40px;
+    }
+}
